@@ -1,0 +1,17 @@
+#Quiz
+
+class square:
+    side=1.0
+    def setSide(self, side):
+        self.side = side * 4
+        
+        if self.side < 0:
+            self.side=0
+              
+    def display(self):
+        print("The Parameter: ",self.side)
+        
+side1 = square()
+side1.setSide(3.0)
+side1.display()
+    
